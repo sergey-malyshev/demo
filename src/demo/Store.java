@@ -17,4 +17,9 @@ public class Store {
    public void setPrice(int price) {
       this.price = price;
    }
+   
+   public void getName(String name) {
+      this.name = name;
+      System.out.println("name = " + name);
+   }
 }
