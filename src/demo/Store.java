@@ -9,4 +9,8 @@ public class Store {
       this.name = name;
       this.price = price;
    }
+   
+   public void setName(String name) {
+      this.name = name;
+   }
 }
