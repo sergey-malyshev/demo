@@ -28,5 +28,6 @@ public class Store {
    
    public void printStore() {
       System.out.println("Store data: " + name +  price);
+      System.out.println("Store data: name = " + name + "price = " + price);
    }
 }
